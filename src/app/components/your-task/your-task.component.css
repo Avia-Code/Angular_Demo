@@ -1,0 +1,31 @@
+.product .features_bot_element_img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 200px;
+}
+
+.block_view_all_solutions {
+    position: relative;
+    left: 50%;
+    display: inline-block;
+    transform: translateX(-50%);
+    margin: 70px 0 0 0;
+}
+
+.product a {
+    text-decoration: none;
+    color: #000;
+}
+.block_subtitle p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.block_subtitle{
+    margin-bottom: 40px;
+}

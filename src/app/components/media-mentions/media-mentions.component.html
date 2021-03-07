@@ -1,0 +1,13 @@
+<div class="block">
+  <div class="block_title">
+    <p class="">Упоминания в СМИ</p>
+  </div>
+
+
+
+  <div class="media_list_block">
+    <a *ngFor="let item of listOfMedia; let i=index; " [href]="listOfLinks[i]" target="_blank" class="media_list_block_element">
+      <img class="media_list_block_element" [src]="item" alt="img">
+    </a>    
+  </div>
+</div>
